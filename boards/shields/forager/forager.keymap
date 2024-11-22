@@ -74,7 +74,7 @@
             compatible = "zmk,combos";
             Escape  {
               timeout-ms = <30>;
-              bindings = <&NW ESC>;
+              bindings = <&kp ESC>;
               key-positions = <11 12>;
             };
 
