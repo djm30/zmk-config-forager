@@ -170,7 +170,7 @@
 
             LClick {
               timeout-ms = <30>;
-              bindings = <&mkp LCLK>;
+              bindings = <&kp P>;
               key-positions = <13 23>;
             };
 
