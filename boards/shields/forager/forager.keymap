@@ -464,7 +464,7 @@ label= "GAME_ALPHA"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q         &kp W      &kp E         &kp R            &kp T           &kp Y       &kp I          &kp O         &kp U          &kp P
-                &kp A         &kp S      &kp D         &kp F            &kp G           &kp H       &kp J          &kp K         &kp L          &kp semi
+                &kp A         &kp S      &kp D         &kp F            &kp G           &kp H       &kp J          &kp K         &kp L          &kp SEMI
                 &kp Z         &kp X      &kp C         &kp V            &kp B           &kp N       &kp M          &kp COMMA     &kp DOT        MEH(FSLH)
                                                        &kp SPACE        &mo GAME_NUM    &td_sym     &td_nav
                         >;
