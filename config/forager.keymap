@@ -498,8 +498,8 @@ label= "GAME_NUM"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &trans      &kp LALT    &trans      &trans        &trans
-                &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0       &trans      &kp LGUI    &kp LSHFT   &kp LCTRL     &kp LALT
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5       &trans      &kp LALT    &trans      &trans        &trans
+                &kp N6      &kp N7      &kp N8      &kp N9      &kp N0       &trans      &kp LGUI    &kp LSHFT   &kp LCTRL     &kp LALT
                 &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans        &trans
                                         &trans      &trans      &trans          &trans      &trans         &trans
                         >;
