@@ -136,6 +136,7 @@
               timeout-ms = <30>;
               bindings = <&kp LPAR>;
               key-positions = <3 13>;
+              layers = <BASE SYM NUM>;
             };
 
             RPar  {
@@ -172,6 +173,13 @@
               timeout-ms = <30>;
               bindings = <&mkp MB1>;
               key-positions = <13 23>;
+            };
+
+            LClickGame {
+              timeout-ms = <30>;
+              bindings = <&mkp MB1>;
+              key-positions = <3 13>;
+              layers = <GAME>;
             };
 
             RClick {
