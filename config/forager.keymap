@@ -305,7 +305,7 @@ label= "BASE"                              ;
                 &key_repeat   &lt ADJ W      &kp F         &kp P        &kp B           &kp J       &kp L          &kp U         &kp Y          &lt FUN SEMI
                 &hm LALT A    &hm LCTRL R    &hm LSHFT S   &hm LGUI T   &kp G           &kp M       &hm RGUI N     &hm RSHFT E   &hm RCTRL I    &hm RALT O
                 HYPR(Z)       &kp X          &kp C         &kp D        &kp V           &kp K       &kp H          &kp COMMA     &lt NAV DOT    MEH(FSLH)
-                                                           &kp SPACE    &td_num         &kp SPACE     &kp SPACE
+                                                           &kp SPACE    &td_num         &td_sym     &td_nav
                         >;
                 };
 
