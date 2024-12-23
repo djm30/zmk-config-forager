@@ -475,7 +475,7 @@ label= "GAME_ALPHA"                              ;
                 &kp P      &kp Q         &kp W      &kp E         &kp R            &kp T           &kp Y       &kp I          &kp O         &kp U
                 &kp LCTRL  &kp A         &kp S      &kp D         &kp F            &kp G           &kp H       &kp J          &kp K         &kp L
                 &kp LSHFT  &kp Z         &kp X      &kp C         &kp V            &kp B           &kp N       &kp M          &kp COMMA     &kp DOT
-                                                     &kp SPACE     &mo GAME_NUM     &td_sym         &td_nav
+                                                    &kp SPACE     &mo GAME_NUM     &td_sym         &td_nav
                         >;
                 };
 
@@ -521,10 +521,10 @@ label= "OFF"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &nope       &nope       &nope       &nope       &nope           &nope       &nope       &nope       &nope         &nope
-                &nope       &nope       &nope       &nope       &nope           &nope       &nope       &nope       &nope         &nope
-                &nope       &nope       &nope       &nope       &nope           &nope       &nope       &nope       &nope         &nope
-                                                    &nope       &nope           &nope       &nope
+                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
+                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
+                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
+                                                    &none       &none           &none       &none
                         >;
                 };
         };
