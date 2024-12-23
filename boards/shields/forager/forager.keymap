@@ -170,19 +170,19 @@
 
             LClick {
               timeout-ms = <30>;
-              bindings = <&kp P>;
+              bindings = <&mkp MB1>;
               key-positions = <13 23>;
             };
 
             RClick {
               timeout-ms = <30>;
-              bindings = <&mkp RCLK>;
+              bindings = <&mkp MB2>;
               key-positions = <12 22>;
             };
 
             MClick  {
               timeout-ms = <30>;
-              bindings = <&mkp MCLK>;
+              bindings = <&mkp MB3>;
               key-positions = <11 21>;
             };
 
