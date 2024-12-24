@@ -130,6 +130,7 @@
               timeout-ms = <30>;
               bindings = <&kp Q>;
               key-positions = <1 2>;
+              layers = <BASE>;
             };
 
             LPar  {
@@ -169,16 +170,37 @@
               key-positions = <8 18>;
             };
 
+
             LClick {
               timeout-ms = <30>;
               bindings = <&mkp MB1>;
               key-positions = <13 23>;
             };
 
+            LClick2 {
+              timeout-ms = <30>;
+              bindings = <&mkp MB1>;
+              key-positions = <2 3>;
+            };
+
             LClickGame {
               timeout-ms = <30>;
               bindings = <&mkp MB1>;
               key-positions = <3 13>;
+              layers = <GAME>;
+            };
+
+            RClickGame {
+              timeout-ms = <30>;
+              bindings = <&mkp MB2>;
+              key-positions = <1 2>;
+              layers = <GAME>;
+            };
+
+            MClickGame {
+              timeout-ms = <30>;
+              bindings = <&mkp MB3>;
+              key-positions = <1 2 3>;
               layers = <GAME>;
             };
 
