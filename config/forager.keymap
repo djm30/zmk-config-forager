@@ -27,7 +27,6 @@
 #define NUM  4
 #define ADJ  5
 #define FUN  6
-#define OFF  7
 
 #define HYPR(kc) &mt LC(LG(LS(LALT))) kc
 #define MEH(kc) &mt LC(LS(LALT)) kc
@@ -40,6 +39,9 @@
 &sk {
      release-after-ms = <2000>;
      quick-release;
+ };
+&soft_off {
+     hold-time-ms = <2000>;
  };
 
 
@@ -74,17 +76,11 @@
         combos {
             compatible = "zmk,combos";
 
-            Game {
-              timeout-ms = <30>;
-              bindings = <&tog GAME>;
-              key-positions = <0 1>;
-            };
-
-            Off {
-              timeout-ms = <30>;
-              bindings = <&tog OFF>;
+            SoftOff {
+              timeout-ms = <50>;
+              bindings = <&soft_off>;
               key-positions = <8 9>;
-              layers = <BASE OFF>;
+              layers = <BASE>;
             };
 
 
@@ -179,27 +175,6 @@
               timeout-ms = <30>;
               bindings = <&mkp MB1>;
               key-positions = <2 3>;
-            };
-
-            LClickGame {
-              timeout-ms = <30>;
-              bindings = <&mkp MB1>;
-              key-positions = <3 13>;
-              layers = <GAME>;
-            };
-
-            RClickGame {
-              timeout-ms = <30>;
-              bindings = <&mkp MB2>;
-              key-positions = <1 2>;
-              layers = <GAME>;
-            };
-
-            MClickGame {
-              timeout-ms = <30>;
-              bindings = <&mkp MB3>;
-              key-positions = <1 2 3>;
-              layers = <GAME>;
             };
 
             RClick {
@@ -481,31 +456,6 @@ label= "FUN"                              ;
                         >;
                 };
 
-// ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-
-                off_layer {
-// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "OFF"                              ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-// ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓        ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃           ┃           ┃           ┃           ┃           ┃        ┃           ┃           ┃           ┃           ┃           ┃
-// ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫        ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃           ┃           ┃           ┃           ┃           ┃        ┃           ┃           ┃           ┃           ┃           ┃
-// ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫        ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃           ┃           ┃           ┃           ┃           ┃        ┃           ┃           ┃           ┃           ┃           ┃
-// ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫        ┣━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃           ┃        ┃           ┃           ┃
-//                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛        ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
- bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
-
-                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
-                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
-                &none       &none       &none       &none       &none           &none       &none       &none       &none         &none
-                                                    &none       &none           &none       &none
-                        >;
-                };
         };
 };
 
