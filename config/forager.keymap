@@ -360,7 +360,7 @@ label= "MAC"                               ;
 label= "SYM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓        ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-// ┃           ┃     --    ┃     ++    ┃     ==    ┃           ┃        ┃           ┃     &&    ┃    ||     ┃           ┃           ┃
+// ┃     ~     ┃     --    ┃     ++    ┃     ==    ┃           ┃        ┃           ┃     &&    ┃    ||     ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫        ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃     :     ┃     -     ┃     +     ┃     =     ┃     *     ┃        ┃     !     ┃     =>    ┃     $     ┃     |     ┃     ;     ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫        ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
@@ -371,7 +371,7 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &DB MINUS       &DB PLUS    &DB EQUAL   &none                 &none       &DB AMPS    &DB PIPE    &none       &none
+                &kp TILDE   &DB MINUS       &DB PLUS    &DB EQUAL   &none                 &none       &DB AMPS    &DB PIPE    &none       &none
                 &kp COLON   &kp MINUS       &kp PLUS    &kp EQUAL   &kp STAR              &kp EXCL    &ARROW      &kp DLLR    &kp PIPE    &kp SEMI
                 &none       &kp LT          &kp GT      &kp AMPS    &kp LA(NUMBER_3)      &kp UNDER   &kp PRCNT   &kp CARET   &kp FSLH    &kp QMARK
                                                         &kp SPACE   &td_num        &to BASE     &nav LSHFT NAV
